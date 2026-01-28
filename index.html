@@ -1,0 +1,318 @@
+<!--
+Source - https://codereview.stackexchange.com/q
+Posted by Turtle, modified by community. See post 'Timeline' for change history
+Retrieved 2026-01-27, License - CC BY-SA 3.0
+-->
+
+    <!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!--- Why are you looking down here? -->
+    <title>Arthur Brinkmann Portfolio</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<!--
+<body>
+  
+  <label for="rpsDropdown">Choose your move:</label>
+  <select id="rpsDropdown">
+    <option value="Rock">Rock</option>
+    <option value="Paper">Paper</option>
+    <option value="Scissors">Scissors</option>    
+  </select>
+
+<button id="playBtn">Play</button>
+
+<p id="result"></p>
+<script src="alarm.js" defer></script>
+-->
+
+
+
+    <!-- Navigation -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+
+        <ul class="sidebar-nav">
+
+            <li class="sidebar-brand">
+                <a id="menu-close" href="#" class=" btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+                <a href="#top"  onclick = "$('#menu-close').click();" >Home</a>
+            </li>
+            <li>
+                <a href="#services" onclick = "$('#menu-close').click();"  >Languages</a>
+            </li>
+            <li>
+                <a href="#interests" onclick = "$('#menu-close').click();"  >Interests</a>
+            </li>
+            <li>
+                <a href="#about" onclick = "$('#menu-close').click();"  >About</a>
+            </li>
+            <li>
+                <a href="#contact" onclick = "$('#menu-close').click();"  >Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+            <h1>Arthur Brinkmann </h1>
+            <h3>Software Developer/ Geospatial Analyst</h3>
+        </div>
+    </header>
+
+    <!-- About -->
+    <section  class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Dwight Schrute</h2>
+                    <p class="lead">"Whenever I'm about to do something, I think, 'Would an idiot do that?' And if they would, I do not do that thing."
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Services -->
+    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+    <section id="services" class="services bg-primary">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h2>Favorite Languages</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-key fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Java</strong>
+                                </h4>
+                                <p>Experience using Java for:<br> Encryption, Servlet Creation, Data Manipulation, Database Management.</p>
+                                <a href="#" class="btn btn-light">Learn More</a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-cloud fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>HTML</strong>
+                                </h4>
+                                <p>Knowledge of Website Development..</p>
+                                <a href="#" class="btn btn-light">Learn More</a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-gear fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Assembly</strong>
+                                </h4>
+                                <p>Programmed Simon Says game, calculator, and more in Mips <br> Mips CPU design in Logisim</p>
+                                <a href="#" class="btn btn-light">Learn more</a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-shield fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Willigness To Learn</strong>
+                                </h4>
+                                <p>Always excited to learn and am currently delving into C and Python</p>
+                                <a href="#" class="btn btn-light">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Callout -->
+    <aside class="callout">
+        <div class="text-vertical-center" >
+
+            <h1 class= "orange-text" >Studying Comp Sci at Rutgers<br>Employer: Dulles Technology Partners &copy;</h1>
+        </div>
+    </aside>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2 id="interests" >Interests</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="portfolio-item" style ="vertical-align: middle">
+                                    <img alt="interests" class="img-portfolio img-responsive img-rounded" id="car-picture" src="http://orig12.deviantart.net/e419/f/2009/101/9/6/honda_s2000_wallpaper_by_speedx07.jpg" >
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                    <img alt="interests" class="img-portfolio img-responsive img-rounded picture" src="http://www.blogcdn.com/massively.joystiq.com/media/2012/02/blizz-1330538518.jpg">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item"> 
+                                <img alt="interests" class="img-portfolio img-responsive img-rounded picture" src="https://sitespex.com/wp-content/uploads/2015/05/ubuntu.jpeg">   
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <img  alt="interests" class="img-portfolio img-responsive img-rounded picture" src="http://people.ucsc.edu/~jlolonis/snow_cat.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Call to Action -->
+    <aside class="call-to-action bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h1>About</h1>
+                    <h4 id ="about">Christopher is currently studying Computer Science at Rutgers- New Brunswick with the intent of fulfilling a concentration in Computer Security. <br>He is currently employed by Dulles Technology Corporation as a Software Developer in New Jersey. <br>For more information on his skills and samples of his work follow the links below. </h4>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h4><strong>Arthur Brinkmann</strong>
+                    </h4>
+                    <p id = "contact">Flemington<br>New Jersey</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-phone fa-fw"></i> (570) 421-2638</li>
+                        <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="diehl.chris@rocketmail.com">diehl.chris@rocketmail.com</a>
+                        </li>
+                    </ul>
+                    <br>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="https://www.linkedin.com/profile/view?id=338507614"><i class="fa fa-linkedin fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/ChristopherDiehl"><i class="fa fa-github fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/chris.diehl.35"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                        </li>
+                    </ul>
+                    <hr class="small">
+                    <p class="text-muted">Copyright &copy; Christopher S. Diehl 2015</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    </script>
+    <!-- Makes Interest pictures same hight-->
+    <script>
+    $(window).load(function() {
+        var pictureHeight = $("#car-picture").height();
+        $(".picture").css('height', pictureHeight+ "px");
+        //$("#menu-bar").css("padding-top", BannerpadSpace);
+    })
+    $(window).resize(function(){
+        pictureHeight = $("#car-picture").height();
+        $(".picture").css('height', pictureHeight+ "px");
+    })
+    </script src="alarm.js" defer></script>
+</body>
+
+</html>
